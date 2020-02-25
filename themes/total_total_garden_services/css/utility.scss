@@ -1,0 +1,39 @@
+/*
+Document   : utility
+Created on : 14-Sep-2013, 08:44:10
+Author     : Shane
+Description:
+Purpose of the stylesheet follows.
+*/
+
+/*
+TODO customize this sample style
+Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
+*/
+$small-padding: 10px;
+$medium-padding: 20px;
+$large-padding: 30px;
+
+$small-margin: 10px;
+$medium-margin: 20px;
+$large-margin: 30px;
+
+.pad-top{
+    padding-top:$medium-padding;  
+}
+
+.pad-bottom{
+    padding-bottom:$medium-padding;  
+}
+
+.pad-left{
+    padding-left:$medium-padding;  
+}
+
+.pad-right{
+    padding-right:$medium-padding;  
+}
+
+.relative{
+    position:relative;
+}
